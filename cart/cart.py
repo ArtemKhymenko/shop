@@ -19,7 +19,7 @@ class Cart(object):
         """
         Add a product to the cart or update its quantity.
         """
-        product_id = str(product_id)
+        product_id = str(product.id)
         if product_id not in self.cart:
             self.cart[product_id] = {'quantity': 0, 'price': str(product.price)}
         if update_quantity:
@@ -40,7 +40,7 @@ class Cart(object):
         """
         product_id = str(product.id)
         if product_id in self.cart:
-            def self.cart[product_id]
+            del self.cart[product_id]
             self.save()
 
     def __iter__(self):
