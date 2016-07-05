@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-03 15:45+0300\n"
+"POT-Creation-Date: 2016-07-05 14:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: cart/forms.py:7 cart/templates/cart/detail.html:16
+msgid "Quantity"
+msgstr ""
+
+#: cart/templates/cart/detail.html:6 cart/templates/cart/detail.html:10
+msgid "Your shopping cart"
+msgstr ""
+
+#: cart/templates/cart/detail.html:14
+msgid "Image"
+msgstr ""
+
+#: cart/templates/cart/detail.html:15
+msgid "Product"
+msgstr ""
+
+#: cart/templates/cart/detail.html:17 cart/templates/cart/detail.html:40
+msgid "Remove"
+msgstr ""
+
+#: cart/templates/cart/detail.html:18
+msgid "Unit price"
+msgstr ""
+
+#: cart/templates/cart/detail.html:19
+msgid "Price"
+msgstr ""
+
+#: cart/templates/cart/detail.html:36
+msgid "Update"
+msgstr ""
+
+#: cart/templates/cart/detail.html:48
+msgid "Subtotal"
+msgstr ""
+
+#: cart/templates/cart/detail.html:66
+msgid "Total"
+msgstr ""
+
+#: cart/templates/cart/detail.html:74
+msgid "Apply a coupon"
+msgstr ""
+
+#: cart/templates/cart/detail.html:77
+msgid "Apply"
+msgstr ""
+
+#: cart/templates/cart/detail.html:81
+msgid "Continue shopping"
+msgstr ""
+
+#: cart/templates/cart/detail.html:82
+msgid "Checkout"
+msgstr ""
+
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr ""
+
 #: myshop1/settings.py:128
 msgid "English"
 msgstr ""
 
 #: myshop1/settings.py:129
 msgid "Spanish"
+msgstr ""
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr ""
+
+#: shop/templates/shop/base.html:18
+msgid "Your cart"
+msgstr ""
+
+#: shop/templates/shop/base.html:27
+msgid "Your cart is emty."
+msgstr ""
+
+#: shop/templates/shop/product/detail.html:18
+msgid "Add to cart"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:24
+msgid "Products"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:11
+msgid "Categories"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
 msgstr ""
