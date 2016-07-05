@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-05 14:24+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-07-05 15:34+0300\n"
+"PO-Revision-Date: 2016-07-05 14:32+0000\n"
+"Last-Translator: b'  <breakerhim@ua.fm>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.7.11\n"
 
 #: cart/forms.py:7 cart/templates/cart/detail.html:16
 msgid "Quantity"
@@ -78,13 +79,43 @@ msgstr "Realizar comprar"
 msgid "Coupon"
 msgstr "Cupón"
 
-#: myshop1/settings.py:128
+#: myshop1/settings.py:129
 msgid "English"
 msgstr "Inglés"
 
-#: myshop1/settings.py:129
+#: myshop1/settings.py:130
 msgid "Spanish"
 msgstr "Español"
+
+#: myshop1/urls.py:25
+msgid "^cart/"
+msgstr "^carro/"
+
+#: myshop1/urls.py:26
+msgid "^orders/)"
+msgstr "^pedidos/"
+
+#: myshop1/urls.py:27
+msgid "^payment/"
+msgstr "^pago/"
+
+#: myshop1/urls.py:29
+#, fuzzy
+#| msgid "Coupon"
+msgid "^coupons/"
+msgstr "Cupón"
+
+#: payment/urls.py:6
+msgid "^process/$"
+msgstr "^procesar/$"
+
+#: payment/urls.py:7
+msgid "^done/$"
+msgstr "^realizado/$"
+
+#: payment/urls.py:8
+msgid "^canceled/$"
+msgstr "^cancelado/$"
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
 msgid "My shop"
@@ -94,8 +125,20 @@ msgstr "Mi tienda"
 msgid "Your cart"
 msgstr "Tu carro"
 
-#: shop/templates/shop/base.html:27
-msgid "Your cart is emty."
+#: shop/templates/shop/base.html:20
+#, python-format
+msgid ""
+"\n"
+"                            %(total_items)s item%(total_items_plural)s, $%(total_price)s\n"
+"                        "
+msgstr ""
+"\n"
+"%(total_items)s producto%(total_items_plural)s, $%(total_price)s"
+
+#: shop/templates/shop/base.html:25
+#, fuzzy
+#| msgid "Your cart is emty."
+msgid "Your cart is empty."
 msgstr "Tu carro está vacío."
 
 #: shop/templates/shop/product/detail.html:18
