@@ -50,8 +50,7 @@
           <td class="num">${{ cart.get_total_price }}</td>
         </tr>
         <tr>
-          {% blocktrans with code=cart.coupon.code
-            discount=cart.coupon.discount %}
+          {% blocktrans with code=cart.coupon.code discount=cart.coupon.discount %}
           <td>
             "{{ code }}" coupon ({{ discount }}% off)
           </td>
