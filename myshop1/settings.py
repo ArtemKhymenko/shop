@@ -162,3 +162,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # django-paypal settings
 PAYPAL_RECEIVER_EMAIL = 'pinxi@pinxi.com.ua'
 PAYPAL_TEST = True
+
+# redis settings
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
