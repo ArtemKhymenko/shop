@@ -12,3 +12,6 @@ In this project:
     <li>Internationalization(i18n, Rosetta, django-parler) and localization(l10n, django-localflavor)</li>
     <li>Recommendation engine(with Redis)</li>
   </ul>
+
+Deployed into pythonanywhere with whitenoise(for static) and wsgi packages.
+http://artemkhymenko.pythonanywhere.com
